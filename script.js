@@ -82,7 +82,7 @@ function getBotResponse(userInput) {
     case "personal":
       if (userInput.includes("yes")) {
         return `<h4>In my free time, I enjoy drawing/painting &#x1F3A8;, going to the gym &#x1f3cb;, watching Chinese dramas &#x1F4FA;, and exploring Trader Joe's cheeses &#x1f9c0;</h4>
-                <h4>Aside from being proficient in coding languages like Python, SQL, & MATLAB, I am also fluent in English, Mandarin, and Tagalog.</h4>
+                <h4>Aside from being proficient in coding languages and tools like Python, SQL, MATLAB, & Tableau, I am also fluent in English, Mandarin, and Tagalog.</h4>
                 <div class="bot-options">
                   <button class="option-btn btn2" data-choice="main">Main Menu</button>
                 </div>`;
@@ -105,9 +105,13 @@ function getBotResponse(userInput) {
                     <li>probability and statistics</li> 
                     <li>math of machine learning</li>
                     <li>differential geometry</li> 
-                <h4>Through these classes, I have built up skills in calculus and linear algebra.</h4>
+                <h4>Through these classes, I have built up skills in quantitative reasoning and computation.</h4>
                 <p> </p>
-                <h4>As for data science, I've taken classes in data analytics and visualization, database querying, and machine learning applications.</h4>
+                <h4>As for data science, I've taken classes in</h4>
+                    <li>enterprise data analytics</li>
+                    <li>data visualization</li>
+                    <li>database querying and management</li<>
+                    <li>machine learning and data mining</li>
                 <h4>For more insight into my coding skills, please visit my website portfolio!</h4>
                 <div class="bot-options">
                   <button class="option-btn btn2" data-choice="main-acad">Back</button>
@@ -125,7 +129,7 @@ function getBotResponse(userInput) {
                 </div>`;
       } else if (userInput.includes("main-acad")) {
         currentStep = "academics";
-        return `<h4>I am a rising senior at the University of Southern California (fight on!), majoring in Applied Math and minoring in Data Science. My current GPA is 3.95/4.0.</h4>
+        return `<h4>I am a senior at the University of Southern California (fight on!), majoring in Applied Math and minoring in Data Science. My current GPA is 3.92/4.0.</h4>
                 <div class="bot-options">
                   <button class="option-btn" data-choice="coursework">Coursework</button>
                   <button class="option-btn" data-choice="awards">Awards</button>
@@ -161,7 +165,7 @@ function getBotResponse(userInput) {
                   <button class="option-btn btn2" data-choice="main-prof">Back</button>
                 </div>`;
       } else if (userInput.includes("blue shield of california")) {
-        return `<h4>I am currently working as a Global Business Services Intern at Blue Shield of California. My department works on guiding and expediting the outsourcing/third-party partnership process throughout the company.</h4>
+        return `<h4>I worked as a Global Business Services Intern at Blue Shield of California last summer of 2025. My department works on guiding and expediting the outsourcing/third-party partnership process throughout the company.</h4>
                 <p></p>
                 <h4>To streamline this manual process, I am working on automating emails and cycle time tracking on MS Excel. I am also developing and testing a code script to automatically extract, compute, and export data from their chosen software to cut down on process inefficiencies.</h4>
                 <div class="bot-options">
@@ -170,7 +174,7 @@ function getBotResponse(userInput) {
       } else if (userInput.includes("usc")) {
         return `<h4>In addition to my academics, I am an undergraduate researcher USC Atmospheric Composition & Earth Data Science Research Lab. In collaboration with PhD students, I am working on improving neural network accuracy and overall performance in solving numerical issues in atmospheric chemistry.</h4>
                 <p></p>
-                <h4>By leveraging my technical skills, we are experimenting with physically-informed mathematical solutions for applicable yet highly data-driven research.</h4>
+                <h4>By leveraging my technical skills, we are experimenting with physically-informed mathematical solutions for applicable yet highly data-driven research. I presented my quantitative and analytical findings to diverse audiences at the AGU 2025 Fall Conference. </h4>
                 <div class="bot-options">
                   <button class="option-btn btn2" data-choice="main-prof">Back</button>
                 </div>`;
