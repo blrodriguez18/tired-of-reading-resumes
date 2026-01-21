@@ -44,7 +44,7 @@ function getBotResponse(userInput) {
                 </div>`;
       } else if (userInput.includes("academics")) {
         currentStep = "academics";
-        return `<h4>I am a rising senior at the University of Southern California (fight on!), majoring in Applied Math and minoring in Data Science. My current GPA is 3.95/4.0.</h4>
+        return `<h4>I am a rising senior at the University of Southern California (fight on!), majoring in Applied Math and minoring in Data Science. My current GPA is 3.92/4.0.</h4>
                 <div class="bot-options">
                   <button class="option-btn" data-choice="coursework">Coursework</button>
                   <button class="option-btn" data-choice="awards">Awards</button>
